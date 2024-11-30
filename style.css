@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 65px;
+}
+#nav1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav2{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}  
+#nav h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    word-spacing: 12px;
+    letter-spacing: -7px;
+    margin-top: 30px;
+    line-height: 170px;
+    font-size: 170px;
+    font-weight: 500;
+}
+#case{
+    margin-top: 150px;
+    padding:40px 65px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 22px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 120px;
+    background-color: black;
+}
+#project{
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+.elem{
+    width: 50%;
+}
+.elemimg{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(158, 200, 211);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+     object-fit: fill;
+    background-image: url(https://media.istockphoto.com/id/178759134/photo/emerald-xl.jpg?s=1024x1024&w=is&k=20&c=JQux8RvMKzwvui3aP4Pd7kDJ_Q4SsN9xwdGhobTHwK8=);
+}
+#img2{
+     object-fit: fill;
+    background-image: url(https://media.istockphoto.com/id/1304476690/photo/close-up-ux-developer-and-ui-designer-use-augmented-reality-app-brainstorming-about-mobile.jpg?s=1024x1024&w=is&k=20&c=fHF2qVbZ32YPqSRDpHC_wL8eGSKeqoZsC8_YVavsWfI=);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.btmleft h2{
+    font-size: 42px;
+}
+.btmleft h4{
+    font-size: 20px;
+    font-weight: 300;  
+}
+.bottom i{
+    font-size: 60px;
+    font-weight: 100;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.bottom i:hover{
+    background-color:black;
+    color: white;
+}
